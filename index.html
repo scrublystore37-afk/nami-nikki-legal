@@ -56,7 +56,7 @@
 <p>アプリの改善と購入の管理のため、次の外部サービスを利用しています。送る情報は、端末ごとにランダムに作られる匿名のIDと、下に挙げる項目だけです。</p>
 <ul>
   <li><strong>RevenueCat</strong>(アプリ内課金の管理): 購入の履歴(どの商品をいつ購入したか)と匿名のID。購入の確認と「購入を復元する」のために使います。</li>
-  <li><strong>PostHog</strong>(利用状況の分析): 画面の表示や操作の種類(例: 「購入画面を開いた」「最初の設定を終えた」)、登録した習慣の<strong>数</strong>、アプリの版、端末の種類と匿名のID。習慣の名前や入力した文字は送りません。画面の録画も行いません。</li>
+  <li><strong>PostHog</strong>(利用状況の分析): 画面の表示や操作の種類(例: 「購入画面を開いた」「最初の設定を終えた」)、登録した習慣の<strong>数</strong>、課金の状態(おためし中・買い切りなど)と購入の結果、アプリの版、端末の種類と匿名のID。習慣の名前や入力した文字は送りません。画面の録画も行いません。</li>
 </ul>
 <p>これらの情報は、利用者個人と結び付けず、広告や他社のアプリ・サイトをまたいだ追跡(トラッキング)には使いません。通信の際、利用者のIPアドレスが各サービスに届きます。</p>
 
@@ -144,7 +144,7 @@
 <p>To improve the app and manage purchases, the app uses the following services. They receive only a random anonymous ID generated on your device and the items listed below.</p>
 <ul>
   <li><strong>RevenueCat</strong> (in-app purchase management): your purchase history (which product and when) and the anonymous ID, used to verify purchases and to restore them.</li>
-  <li><strong>PostHog</strong> (usage analytics): which screens are shown and which kinds of actions are taken (e.g. "opened the purchase screen", "finished setup"), the <strong>number</strong> of habits you registered, the app version, device type and the anonymous ID. Habit names and anything you type are never sent, and the screen is never recorded.</li>
+  <li><strong>PostHog</strong> (usage analytics): which screens are shown and which kinds of actions are taken (e.g. "opened the purchase screen", "finished setup"), the <strong>number</strong> of habits you registered, your purchase status (trial, lifetime, etc.) and purchase outcomes, the app version, device type and the anonymous ID. Habit names and anything you type are never sent, and the screen is never recorded.</li>
 </ul>
 <p>This information is not linked to you personally and is not used for advertising or for tracking across other companies' apps or websites. Your IP address reaches these services when the app communicates with them.</p>
 
